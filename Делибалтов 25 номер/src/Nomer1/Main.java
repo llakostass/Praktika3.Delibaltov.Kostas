@@ -8,7 +8,7 @@ public class Main {
         Pattern p1 = Pattern. compile  (regex);
         Matcher m1 = p1.matcher(s);
         while (m1.find()) {
-            System.out.println("Валюта: " + m1.group());
+            System.out.println("Денежная валюта: " + m1.group());
         }
     }
 }
